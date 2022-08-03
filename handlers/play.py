@@ -200,12 +200,12 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_text(
-            text=f"**» ᴛʀᴀᴄᴋ ǫᴜᴇᴜᴇᴅ ᴀᴛ {position} ʙᴀʙʏ**\n📌 **ᴛɪᴛʟᴇ​ :**[{title[:65]}]({url})\n\n🕕** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n💕** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ : **{chumtiya}",
+            text=f"**» 𝐓ʀᴀᴄᴋ 𝐐ᴜᴇᴜᴇᴅ 𝐀ᴛ {position} 𝐂ʜʟᴍ **\n📌 **𝐓ɪᴛʟᴇ​ :**[{title[:65]}]({url})\n\n🕕** 𝐃ᴜʀᴀᴛɪᴏɴ :** `{duration}` ** 𝐌ɪɴᴜᴛᴇs **\n💕** 𝐑ᴇǫᴜᴇsᴛᴇᴅ 𝐁ʏ​ : **{chumtiya}",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• sᴜᴩᴩᴏʀᴛ •", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton("» ᴄʟᴏsᴇ «", callback_data="close_play")
+                    InlineKeyboardButton("• 𝐒ᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton("» 𝐂ʟᴏsᴇ «", callback_data="close_play")
                 ],
             ]
         ),
@@ -223,12 +223,12 @@ async def play(_, message: Message):
             )
 
         await message.reply_text(
-            text=f"**ㅤㅤㅤ» 🎧ɴᴏᴡ ᴘʟᴀʏɪɴɢ ᴊᴀᴀɴ🎧 «**\n📌 **🎾Sᴏɴɢ ᴛɪᴛʟᴇ🎾​:** [{title[:65]}]({url})\n🕕 **🎈ᴅᴜʀᴀᴛɪᴏɴ🎈:** `{duration}` ᴍɪɴᴜᴛᴇs\n💕 **😍ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ😍​:** {chumtiya}\n💔 **ᴘʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n",
+            text=f"** » 🎧𝐈ᴘᴏ 𝐏ʟᴀʏɪɴɢ 𝐃ᴀ 𝐂ʜʟᴍ🎧 «**\n📌 **⚜️𝐒ᴏɴɢ 𝐓ɪᴛʟᴇ⚜️​:** [{title[:65]}]({url})\n🕕 **✨𝐃ᴜʀᴀᴛɪᴏɴ✨:** `{duration}` 𝐌ɪɴᴜᴛᴇs s\n💕 **🥵𝐑ᴇǫᴜᴇsᴛᴇᴅ 𝐁ʏ🥵​:** {chumtiya}\n🍺 **𝐏ʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **𝐒ᴛʀᴇᴀᴍ 𝐓ʏᴘᴇ:** 𝐘ᴏᴜᴛᴜʙᴇ 𝐌ᴜsɪᴄ\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😘sᴜᴩᴩᴏʀᴛ ᴊᴏɪɴ😘", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton("» 😘ᴄʟᴏsᴇ😘 «", callback_data="close_play")
+                    InlineKeyboardButton("😘𝐒ᴜᴩᴩᴏʀᴛ 𝐉ᴏɪɴ😘", url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton("» 😘𝐌ʟᴏsᴇ😘 «", callback_data="close_play")
                 ],
             ]
         ),
