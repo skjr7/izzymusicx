@@ -77,13 +77,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await fallen.edit(
-                        "<b>» Fɪʀsᴛ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ɴᴀ ᴊᴀᴀᴀɴ🥺</b>")
+                        "<b>» 𝐘ᴇʟʟᴇᴀ 𝐌ᴀᴋᴋᴀ 𝐏ʀᴏᴍᴏᴛᴇ 𝐏ᴀɴɴᴜ 𝐋ᴇᴀ 🥵</b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "» ᴀssɪsᴛᴀɴᴛ sᴜᴄᴄᴇssꜰᴜʟʏ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ ʙᴀʙʏ, ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ sᴏɴɢs​.")
+                        message.chat.id, "» 𝐀ssɪsᴛᴀɴᴛ 𝐆ʀᴏᴜᴘ 𝐊ᴜ 𝐕ᴀɴᴛᴇᴀɴ 𝐂ʜʟᴍ  𝐈ᴘᴏ 𝐁ᴀᴊᴀɴᴀɪ 𝐀ʀᴀᴍʙɪᴋᴀʟʟᴀᴍ 🕺✨​.")
 
                 except UserAlreadyParticipant:
                     pass
