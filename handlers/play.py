@@ -89,12 +89,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await fallen.edit(
-                        f"<b>» ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ʙᴀʙʏ, sᴇɴᴅ /join ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴏʀᴅᴇʀ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ᴊ​ᴏɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.")
+                        f"<b>» 𝐀ssɪsᴛᴀɴᴛ 𝐔ʟʟᴀ 𝐕ᴀʀᴀ 𝐌ᴜᴅɪʏᴀʟᴀ 𝐓ʜʀᴏɢᴀᴍ 🤦🏻 /join 𝐈ᴘᴏ 𝐓ʜᴀ 𝐔ʟʟᴀ 𝐕ᴀʀᴇᴀɴ  𝐀ᴛʜᴜᴋᴜʟʟᴀ 𝐈ᴘᴀᴅɪ 𝐏ᴀɴɴᴀʀɪɢᴀʟᴇᴀ 𝐍ʟʟᴀ 𝐏ᴀɴɴᴀʀɪɢᴀ 𝐌ᴀɴ.")
     try:
         await USER.get_chat(chid)
     except Exception as e:
         await fallen.edit(
-            f"<i>» ᴀssɪsᴛᴀɴᴛ ғᴀɪʟᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀᴛ.</i>\n\nʀᴇᴀsᴏɴ : {e}")
+            f"<i>» 𝐀ssɪsᴛᴀɴᴛ 𝐔ʟʟᴀ 𝐕ᴀʀᴀ 𝐌ᴜᴅɪʏᴀʟᴀ 𝐓ʜʀᴏɢᴀᴍ 🤦🏻.</i>\n\n𝐊ᴀʀᴀɴᴀᴍ : {e}")
         return
     
     audio = (
@@ -107,7 +107,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"» ᴇxᴛʀᴇᴍᴇʟʏ sᴏʀʀʏ ᴍᴇʀᴀ ʙᴀᴄᴄʜᴀ🥺, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ"
+                f"» 𝐌ᴀɴɴᴜᴄʜᴜʀᴜ 𝐋ᴇᴀ 😒, 𝐓ʀᴀᴄᴋ 𝐏ᴇᴀʀᴜsᴜ 𝐃ᴀ {DURATION_LIMIT} 𝐌ɪɴᴜᴛᴇs 𝐀ʟʟᴏᴡ 𝐏ᴀɴɴᴀʟʟᴀ 𝐃ᴀ 𝐒ᴀᴍʙᴜ-𝐌ᴀᴠᴀɴᴇᴀ "
             )
 
         file_name = get_file_name(audio)
@@ -148,16 +148,16 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await fallen.edit(
-                f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ"
+                f"» 𝐒ᴏʀʀʏ 𝐂ʜʟᴍ, 𝐓ʀᴀᴄᴋ 𝐏ᴇᴀʀᴜsᴜ 𝐃ᴀ {DURATION_LIMIT} 𝐌ɪɴᴜᴛᴇs 𝐀ʟʟᴏᴡ 𝐏ᴀɴɴᴀʟʟᴀ 𝐃ᴀ 𝐒ᴀᴍʙᴜ-𝐌ᴀᴠᴀɴᴇᴀ"
             )
             return
         file_path = await converter.convert(youtube.download(url))
     else:
         if len(message.command) < 2:
             return await fallen.edit(
-                "» 🥀🥀ᴀʀᴇᴇ ᴍᴇʟᴀ ʙᴀᴄᴄʜᴀ ʙɪɴᴀ sᴏɴɢ ɴᴀᴍᴇ ᴋᴀ ᴘʟᴀʏ ᴋᴀɪsᴇ ᴋʀᴜ🥺 ɢɪᴠᴇ sᴏᴍᴇ sᴏɴɢ ɴᴀᴍᴇ ᴊᴀᴀɴ😘"
+                "» 🤯𝐘ᴀʀʀᴀ 𝐍ɪɢᴀʟʟᴀ 𝐄ᴀɴᴅᴀ 𝐄ɴ 𝐔ʏɪʀᴀ 𝐕ᴀɴɢᴀʀɪɢᴀ😤 𝐒ᴏɴɢ 𝐍ᴀᴍᴇ 𝐏ᴏᴅᴜ 𝐃ᴀ 𝐕ᴇɴʀᴜ🤬"
             )
-        await fallen.edit("🔎")
+        await fallen.edit("😻")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -182,14 +182,14 @@ async def play(_, message: Message):
 
         except Exception as e:
             await fallen.edit(
-                "»ʙᴋᴋ ɴᴏᴛ ғᴏᴜɴᴅ ʏᴀʀʀ🥺, ᴋᴇᴇᴘ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴅ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ ᴊᴀᴀᴀɴ🥺💞"
+                "»𝐋ᴇᴀ 𝐎ʟᴜɴɢᴀ 𝐓ʏᴘᴇ 𝐏ᴀɴɴᴜ🥺, 𝐒ᴏɴɢ 𝐍ᴀᴍᴇ 𝐂ʀᴛ 𝐇ᴀ 𝐏ᴏᴅᴜ 𝐂ʜʟᴍ🥰🙈"
             )
             print(str(e))
             return
 
         if (dur / 60) > DURATION_LIMIT:
             await fallen.edit(
-                f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ"
+                f"»𝐒ᴏʀʀʏ 𝐂ʜʟᴍ, 𝐓ʀᴀᴄᴋ 𝐏ᴇᴀʀᴜsᴜ 𝐃ᴀ  {DURATION_LIMIT} 𝐌ɪɴᴜᴛᴇs 𝐀ʟʟᴏᴡ 𝐏ᴀɴɴᴀʟʟᴀ 𝐃ᴀ 𝐒ᴀᴍʙᴜ-𝐌ᴀᴠᴀɴᴇᴀ"
             )
             return
         file_path = await converter.convert(youtube.download(url))
