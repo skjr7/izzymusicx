@@ -30,7 +30,7 @@ async def start_(client: Client, message: Message):
 𖤓 🔱𝐓ʜᴀᴍʙɪ ♡︎ 𝐒ᴜʀʏᴀ
 
 𖤓 😈𝐏ʀᴏᴘᴏss 𝐌ᴇ   
-- @Tamil_chat_junctions
+ @kaathuvaakula4
 
 𖤓 🌈𝐓ʜᴀɴᴋs 𝐅ᴏʀ 𝐔sᴇɪɴɢ !!!
 
@@ -47,14 +47,14 @@ async def start_(client: Client, message: Message):
                         "👑 𝐊ɪɴɢ 👑", url="https://t.me/king_of_izzy"
                     ),
                     InlineKeyboardButton(
-                        "😻 𝐒ᴜᴘᴘᴏʀᴛ 😻", url=f"https://t.me/Suryaakumar"
+                        "😻 𝐒ᴜᴘᴘᴏʀᴛ 😻", url=f"https://t.me/kaathuvaakula4"
                     )
                 ],[
                     InlineKeyboardButton(
                         "🔱 𝐓ᴀᴍɪʟ 𝐉ᴜɴᴄᴛɪᴏɴ 🔱", url= "https://t.me/Tamil_chat_junctions"
                     ),
                     InlineKeyboardButton(
-                        "🤧 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🤧", url="https://github.com/TeamYukki/YukkiMusicBot"
+                        "🤧 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🤧", url= "https://t.me/repo_izzy_bot"
                     )]
             ]
        ),
